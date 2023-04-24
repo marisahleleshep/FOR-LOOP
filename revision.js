@@ -69,3 +69,10 @@ function filterNegativeNumbers(arr2) {
   console.log(filteredArr);
 
 //   Create a length converter function
+
+
+const v=[2,13,4,45,90]
+v.sort(function(a,b){
+  return a-b
+})
+console.log(v)
