@@ -64,6 +64,29 @@ console.log(x)
 
 // Given two arrays of integers. Add up each element in the same position and
 // create a new array containing the sum of each pair. Assume both arrays are of the same length.
+function sumArray(arr,arr1){
+    let sum=0
+    for(let i =0;i<arr.length;i++){
+        sum+=arr[i]
+    }
+    for(let i =0;i<arr1.length;i++){
+        sum+=arr1[i]
+    }
+    return sum
+}
+let num1=[1,2,3,4,5]
+let num2=[1,2,3,4,5]
+console.log(sumArray(num1,num2))
+// Write a function that uses while, if and continue statements to print all the even numbers between 0 and 50. 
+// function evenNums(){
+
+// }
+// // Write a function that takes an integer argument and prints "Prime" if the number is prime, and "Not prime" if the number is not prime.
+// Write a function that takes a list of integers as input and prints the sum of all the even numbers in the list.
+// Write a function that takes any two integers as input, and prints the sum of all the numbers between the two integers (inclusive) that are divisible by 3.
+
+
+
 
 
 
