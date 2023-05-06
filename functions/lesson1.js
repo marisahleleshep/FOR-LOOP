@@ -64,6 +64,14 @@ let array=[12,34,22,9.56,4]
 let sort=numArray(array[-2])
 console.log(sort)
 
+function number(numss){
+    numss.sort(function(m,n){
+        return n-m
+    })
+    return [1]
+}
+let numss = [10,12,45,32]
+console.log(number(numss));
 
 // Write a function that takes a string as a parameter and returns true if the string is a palindrome and false otherwise
 function ispalindrome(str){
